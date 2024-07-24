@@ -3,33 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Organization</title>
+    <title>ClosedLoop.ai - IntelliJ IDEA Plugin</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
             background-color: #f4f4f4;
-        }
-        .container {
-            text-align: center;
-        }
-        h1 {
             color: #333;
         }
-        p {
-            color: #666;
+        header {
+            width: 100%;
+            background-color: #0073e6;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            background-color: #0073e6;
+            color: white;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Our Organization</h1>
-        <p>We're glad you're here! Stay tuned for more updates.</p>
-    </div>
+    <header>
+        <h1>ClosedLoop.ai</h1>
+        <p>Revolutionizing Test Automation with AI</p>
+    </header>
+    <main>
+        <div class="content">
+            <h2>About Our Product</h2>
+            <p>ClosedLoop.ai is an innovative IntelliJ IDEA plugin that leverages the power of artificial intelligence to generate JUnit test cases automatically. Our plugin simplifies the process of writing test cases, ensuring high-quality code coverage and saving valuable development time.</p>
+            <h2>Features</h2>
+            <ul>
+                <li>Automated generation of JUnit test cases</li>
+                <li>AI-driven test case creation</li>
+                <li>Seamless integration with IntelliJ IDEA</li>
+                <li>Improves code quality and coverage</li>
+                <li>Easy to use and configure</li>
+            </ul>
+            <h2>Contact Us</h2>
+            <p>For more information, visit our <a href="https://github.com/closedloop-org/closedloop-testGenAI">GitHub page</a> or contact us at <a href="mailto:info@closedloop.ai">info@closedloop.ai</a>.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ClosedLoop.ai. All rights reserved.</p>
+    </footer>
 </body>
 </html>
